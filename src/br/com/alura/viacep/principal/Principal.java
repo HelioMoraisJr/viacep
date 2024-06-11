@@ -23,12 +23,12 @@ public class Principal {
         leitor.close();    
         
         try {
-            // Tenta buscar as informações do CEP digitado
+            // Tenta buscar as informações do CEP digitado.
             InformacoesViaCep novoCep = consultaCep.buscaCep(cep);
             // Imprime as informações do CEP
             System.out.println(novoCep);
         } catch (RuntimeException e) {
-            // Captura exceções e imprime a mensagem de erro
+            // Captura exceções e imprime a mensagem de erro.
             System.out.println(e.getMessage());
             System.out.println("Finalizando a aplicação");
         }       
