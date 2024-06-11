@@ -2,8 +2,6 @@
 
 Esse projeto tem como objetivo criar um aplicação para consultar a API viacep.
 
-Stutu: em implentação.
-
 OBS: Desafio criado pelo curso Java da Alura para consolidar os conhecimentos.
 
 Desafio:
